@@ -6,15 +6,17 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:orientation="vertical"
+        android:padding="8dp">
 
         <SearchView
             android:id="@+id/svDictionary"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/roundbutton"/>
 
 <!--        <LinearLayout-->
 <!--            android:layout_width="match_parent"-->
@@ -41,7 +43,6 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_listDictionary"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"

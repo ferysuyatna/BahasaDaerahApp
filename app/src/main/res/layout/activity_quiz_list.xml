@@ -21,14 +21,11 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#f0eb79"
+                android:background="#0d204c"
                 android:foreground="?attr/selectableItemBackground"
-                android:paddingTop="25dp"
                 android:text="Bugis"
                 android:textAllCaps="false"
-                android:textColor="#2f2e2e"
-                android:textSize="18sp" />
-
+                android:textColor="#fff" />
 
             <Button
                 android:id="@+id/b2"
@@ -36,13 +33,12 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#0BA4E9"
+                android:background="#529ecc"
                 android:foreground="?attr/selectableItemBackground"
-                android:paddingTop="25dp"
                 android:text="Bali"
+                android:textStyle="bold"
                 android:textAllCaps="false"
-                android:textColor="#ffffff"
-                android:textSize="18sp" />
+                android:textColor="#fff" />
 
 
         </LinearLayout>
@@ -55,16 +51,14 @@
             <Button
                 android:id="@+id/b3"
                 android:layout_width="0dp"
-                android:foreground="?attr/selectableItemBackground"
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#e7595d"
-                android:paddingLeft="45dp"
+                android:background="#aa1d05"
+                android:foreground="?attr/selectableItemBackground"
                 android:text="Sunda"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textColor="#fff" />
 
         </LinearLayout>
 
@@ -79,13 +73,11 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#a084d1"
-                android:paddingTop="25dp"
+                android:background="#ffc313"
                 android:foreground="?attr/selectableItemBackground"
                 android:text="Batak"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textColor="#fff"/>
 
             <Button
                 android:id="@+id/b5"
@@ -93,12 +85,10 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#80e7a9"
-                android:paddingTop="25dp"
+                android:background="#37779B"
                 android:text="Aceh"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textColor="#fff" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,29 +101,25 @@
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
-                android:foreground="?attr/selectableItemBackground"
                 android:layout_weight="1"
-                android:background="#d9dbd0"
-                android:paddingTop="40dp"
+                android:background="#E46306"
+                android:foreground="?attr/selectableItemBackground"
                 android:text="Melayu"
                 android:textAllCaps="false"
-                android:textColor="#2f2e2e"
-                android:textSize="18sp" />
+                android:textColor="#fff"/>
 
 
             <Button
                 android:id="@+id/b7"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:foreground="?attr/selectableItemBackground"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#cc8d66"
-                android:paddingTop="25dp"
+                android:background="#9C27B0"
+                android:foreground="?attr/selectableItemBackground"
                 android:text="Banjar"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textColor="#fff"/>
         </LinearLayout>
 
         <LinearLayout
@@ -147,13 +133,11 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#63c28c"
-                android:paddingLeft="35dp"
+                android:background="#34A80D"
                 android:foreground="?attr/selectableItemBackground"
                 android:text="Jawa"
                 android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textColor="#fff"/>
         </LinearLayout>
 
         <LinearLayout
@@ -167,9 +151,8 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#f71735"
+                android:background="#FFC107"
                 android:foreground="?attr/selectableItemBackground"
-                android:paddingTop="25dp"
                 android:text="Madura"
                 android:textAllCaps="false"
                 android:textColor="#fff" />
@@ -181,10 +164,9 @@
                 android:layout_height="200dp"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#88a6db"
-                android:paddingTop="25dp"
-                android:text="Poso-Pamona"
+                android:background="#0d204c"
                 android:foreground="?attr/selectableItemBackground"
+                android:text="Poso-Pamona"
                 android:textAllCaps="false"
                 android:textColor="#fff" />
         </LinearLayout>

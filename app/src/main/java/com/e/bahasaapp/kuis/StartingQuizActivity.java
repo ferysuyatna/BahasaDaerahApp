@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -21,7 +22,7 @@ public class StartingQuizActivity extends AppCompatActivity {
 
         public static final String SHARED_PREFS = "sharedPrefs";
         public static final String KEY_HIGHSCORE = "keyHighscore";
-        private RelativeLayout relativeLayout;
+        private LinearLayout relativeLayout;
         private TextView textViewHighscore;
         private Spinner spinnerDifficulty;
         private String position = "";
